@@ -1,0 +1,34 @@
+to start:
+npm init
+
+npm install --save express
+
+npm install --save-d nodemon
+
+//log in terminal
+npm install --save morgan
+
+//easily readable
+npm install --save body-parser
+
+npm install --save mongoose
+
+//global try catch, will not use express's try catch
+npm install express-promise-router --save
+
+//joi
+npm i joi
+
+
+//for Swagger
+https://www.npmjs.com/package/swagger-jsdoc :- 
+1. npm module document are code
+2. Generates swagger documentation from the comments in our code 
+(this is what gives autogenartion of our documentation its power )
+npm install --save-dev swagger-jsdoc
+
+
+https://www.npmjs.com/package/swagger-ui-express
+1. help us document are code and genrates swagger documentation from the comments
+in our code 
+npm install --save-dev swagger-ui-express
